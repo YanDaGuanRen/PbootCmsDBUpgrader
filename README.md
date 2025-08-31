@@ -5,7 +5,8 @@
 
 ## 项目结构
 
-- `migrate_content.py`: 主要的迁移脚本，包含所有配置和迁移逻辑
+- `migrate_content.py`: 主要的迁移脚本，包含所有配置和迁移逻辑 这个只能同步content的数据库
+- `integrated_script.py`:能同步整个数据库在里面设置好源库目标库和结果库就行 适合所有版本所有库转换
 - `nes.db`: 目标数据库文件（新数据库）
 - `old.db`: 源数据库文件（旧数据库）
 - `image_links.csv`: 图片链接映射文件（CSV格式）
